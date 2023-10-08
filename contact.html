@@ -116,14 +116,14 @@
 
 
     <!-- Contact form start -->
-    <div class="container-lg mt-3 shadow mb-5 bg-white">
+    <div class="container-lg mt-3 shadow mb-5 ">
         <div class="text-center">
             <h2>Drop a message</h2>
             <p>Question to ask? Fill out the form to contact me directly...!</p>
         </div>
         <div class="row justify-content-center my-2">
-            <div class="col-lg-5">
-                <form action="">
+            <div class="col-lg-6">
+                <form action=" https://wa.me/+2348069075601">
                     <label for="name" class="form-label fw-bold">Name:</label>
                     <div class="mb-4 input-group">
                     <span class="input-group-text">
@@ -131,7 +131,16 @@
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
                           </svg>
                     </span>
-                    <input type="text" class="form-control" id="name" >
+                    <input type="text" class="form-control" id="name" required >
+                    <!-- tooltip -->
+                    <span class="input-group-text">
+                      <span class="tt" data-bs-placement="top" title="Enter Your Name e.g Aliyu Musa">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                         <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                        </svg>
+                      </span>
+                    </span>
                     </div>
 
                      <label for="Address" class="form-label fw-bold">Address:</label>
@@ -141,7 +150,16 @@
                                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                               </svg>
                         </span>
-                        <input type="text" class="form-control" id="Address" >
+                        <input type="text" class="form-control" id="Address" required>
+                          <!-- tooltip -->
+                    <span class="input-group-text">
+                      <span class="tt" data-bs-placement="top" title="Enter Your Address e.g Biu Borno State">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                         <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                        </svg>
+                      </span>
+                    </span>
                      </div>
                     
 
@@ -153,12 +171,21 @@
                                 <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
                               </svg>
                         </span>
-                        <input type="text" class="form-control" id="emali" >
+                        <input type="email" class="form-control" id="emali" required>
+                                <!-- tooltip -->
+                    <span class="input-group-text">
+                      <span class="tt" data-bs-placement="top" title="Enter Email Address e.g aliyumusa775@gmail.com">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                         <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                        </svg>
+                      </span>
+                    </span>
                      </div>
                    
 
                     <div class="form-floating mt-4">
-                        <textarea name="" id="text" style="height: 150px;" class="form-control"></textarea>
+                        <textarea name="" id="text" style="height: 150px;" class="form-control" required></textarea>
                         <label for="question">What is your Question?</label>
                     </div>
 
@@ -192,6 +219,13 @@
 
                         <!-- Template Javascript -->
                         <script src="hk/js/main.js"></script>
+
+                        <script>
+                            const tooltips = document.querySelectorAll('.tt')
+                            tooltips.forEach(t => {
+                                new bootsrap.Tooltip(t)
+                            })
+                        </script>
 </body>
 
 </html>

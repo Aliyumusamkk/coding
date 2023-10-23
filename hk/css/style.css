@@ -147,7 +147,7 @@
 /*** Header ***/
 
 .header-bg {
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/codtemp6.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/codtemp6.jpeg);
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -348,12 +348,12 @@
 /*** Facts & Visiting Hours ***/
 
 .facts {
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/codtempt2.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/codtempt2.jpeg) center center no-repeat;
     background-size: cover;
 }
 
 .visiting-hours {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/codetemp5.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/codetemp5.jpeg) center center no-repeat;
     background-size: cover;
 }
 
@@ -526,7 +526,7 @@
 /*** Footer ***/
 
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/hk3.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/hk3.jpeg) center center no-repeat;
     background-size: cover;
 }
 
